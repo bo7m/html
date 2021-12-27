@@ -1,0 +1,182 @@
+body{
+    background-color: #2A3140;
+  }
+  header{
+      background-image: url("https://img.actionco.fr/Img/BREVE/2020/10/352925/IconoClass-Academy-formation-ligne-Business-Development-T.jpg");
+height: 300px;  
+background-repeat: no-repeat;
+background-position: center; /* Center the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+
+    }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    opacity:70%;
+    
+  }
+  
+  li {
+    float: left;
+    font-size: larger;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #34A6C5;
+  }
+  .taille{
+    width: 50px;
+    height: 50px;
+   
+  }
+  .vid{
+    width: 80%;
+    height: 500px;
+    
+    
+  }
+  table {
+border-collapse: collapse;
+margin-top: 30px;
+width: 80%;
+text-align : center;
+}
+
+th, td {
+text-align: center;
+padding: 8px;
+}
+table.center {
+margin-left: auto; 
+margin-right: auto;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+* {
+box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+}
+
+input[type=submit] {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+}
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+.col-25 {
+float: left;
+width: 25%;
+margin-top: 6px;
+}
+
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.col-25, .col-75, input[type=submit] {
+width: 100%;
+margin-top: 0;
+}
+}
+.cl{
+background-color: rgb(175, 41, 41);
+color: white;
+}
+.imag
+    {
+      
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width:100%;
+      }
+      
+       
+      
+      .container {
+        position: relative;
+        width: 100%;
+      }
+      
+      .image {
+        display: block;
+        width:300px ;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
+      .text {
+        color: white;
+        font-size: 80px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
